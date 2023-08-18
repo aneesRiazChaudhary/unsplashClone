@@ -1,0 +1,46 @@
+.NavBarContainer{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    justify-content: space-around;
+    padding: 20px 40px;
+    > img{
+        width: 30px;
+    }
+    > form {
+        flex:1;
+        display: flex;
+        align-items: center;
+        border: 1px solid #ededed;
+        border-radius: 25px;
+        gap: 1em;
+        padding: 10px 20px;
+        >input{
+            outline: none;
+            border: none;
+            flex: 1;
+            height: 100%;
+        }
+    }
+}
+
+
+.TabBarCOntainer{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    padding: 0 40px;
+    // color: #767676;
+    // >span{
+    //     font-weight: 500;
+    //     user-select: none;
+    //     cursor: pointer;
+    // }
+    > hr{
+        height:25px;
+        width: 1px;
+        border: none;
+        margin: 0;
+        background-color: #414141;
+    }
+}
